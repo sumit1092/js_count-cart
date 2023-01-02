@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Enter Your Details here</h2>
+    <form action="">
+       <label for="name">First Name: </label>
+       <input id="name" type="text" name="First Name">
+       <label for="last">Last Name: </label> 
+       <input id="last" type="text" name="Last Name">
+       <br></br>
+       <label for="age">Age:</label> <input id="age" type="number" name="Age">
+       <br><br>
+       <label for="">form date:</label> <input type="date">
+       <br></br>
+       <label for="">Email:</label> <input type="email">
+       <br><br>
+       <label for="">password:</label> <input type="password">
+       <br><br>
+       <p><b>Select your Course</b></p>
+       <!-- for attribute in label should be same with input id -->
+       <input id="BE" name="course" type="radio" value="computer">
+       <label for="BE">Computer</label><br>
+       <input id="Bsc" name="course" type=radio value="IT">
+       <label for="Bsc">IT</label><br>
+       <input id="btech"name=course type=radio value="Electronics">
+       <label for="btech">Electronics</label><br>
+       <br><br>
+       <!-- we can select all if we not put radio as input-->
+       <p>radio example</p>
+       <label for="">radio eg</label> <input type="radio"><br>
+       <label for="">Radio Eg</label> <input type="radio"><br>
+       <label for="">Eg radio</label> <input type="radio"><br>
+       <br>
+       <label for="cars">Choose a car</label>
+       <select name="car" id="cars">
+        <option value="Volvo">Volvo</option>
+        <option value="BMW">BMW</option>
+        <option value="TATA">TATA</option>
+        <option value="MG">MG</option>
+       </select>
+       <br><br>
+       <label for="color">Color</label>
+       <input id="color" type="color">
+       <br><br>
+       <label for="about yourself">Tell about Yourself</label>
+       <textarea name="Tell about yourself" id="about yourself" cols="30" rows="5"></textarea>
+       <br><br>
+       <label for="RESET"></label><input id="RESET"type="reset">
+       <label for="sub"></label><input id="sub" type="submit">
+</form>
+</body>
+</html>
